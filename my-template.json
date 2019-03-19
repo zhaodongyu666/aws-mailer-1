@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "MyTemplate",
+    "SubjectPart": "First email using AWS Template",
+    "HtmlPart": "<p>Hello,</p><p>This is my first email using AWS SES Template.</p><p>--<br>Regards<br>Pankaj Jangid<br><br>Twitter - https://twitter.com/jangid</p>",
+    "TextPart": "Hello,\n\nThis is my first email using AWS SES Template.\n\n--\nRegards\nPankaj Jangid\n\nTwitter - https://twitter.com/jangid\n"
+  }
+}

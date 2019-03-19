@@ -1,0 +1,23 @@
+{
+  "name": "aws-mailer",
+  "version": "1.0.0",
+  "description": "App to send email using AWS Simple Email Service (SES) smtp and template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jangid/aws-mailer.git"
+  },
+  "author": "Pankaj Jangid <pankaj.jangid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangid/aws-mailer/issues"
+  },
+  "homepage": "https://github.com/jangid/aws-mailer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.423.0"
+  }
+}
