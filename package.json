@@ -12,7 +12,7 @@
     "url": "git+ssh://git@github.com/jangid/aws-mailer.git"
   },
   "author": "Pankaj Jangid <pankaj.jangid@gmail.com>",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/jangid/aws-mailer/issues"
   },
