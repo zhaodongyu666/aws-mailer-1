@@ -1,13 +1,13 @@
 {
-    "REGION": "us-east-1",
-    "SOURCE": "pankaj@example.com",
-    "TEMPLATE": "MyTemplate",
-    "TEMPLATE_DATA": "{}",
-    "REPLY_TO": "pankaj@example.com",
-    "SLEEP": 1000,
-    "LIMIT": {
-        "PER_DAY": 50000,
-        "PER_SEC": 14
-    },
-    "EMAIL_ADDRESSES_FILE": "./email_addresses_fake.json"
+  "REGION": "us-east-1",
+  "SOURCE": "pankaj@example.com",
+  "TEMPLATE": "TemplateName",
+  "TEMPLATE_DATA": "{}",
+  "REPLY_TO": "pankaj@example.com",
+  "SLEEP": 1000,
+  "LIMIT": {
+    "PER_DAY": 50000,
+    "PER_SEC": 14
+  },
+  "EMAIL_ADDRESSES_FILE": "./email_addresses_fake.json"
 }
