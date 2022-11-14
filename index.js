@@ -5,7 +5,11 @@ const CONFIG = require('./config.json');
 
 // Set the region 
 AWS.config.update({
-  region: CONFIG.REGION
+  region: CONFIG.REGION,
+  sessionToken: CONFIG.SESSION_TOKEN,
+  accessKeyId: CONFIG.ACCESS_KEY_ID,
+  secretAccessKey: CONFIG.SECRET_ACCESS_KEY_ID
+
 });
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
